@@ -1,23 +1,23 @@
 /* Usando CSS como modulo */
 //import style from './Home.module.css'
 
-import './Home.css'
+import './Aluno.css'
 import Navbar from '../../template/Navbar';
 import Sidebar from '../../template/Sidebar';
-import Grafico from '../../Grafico';
+import MainEditarAluno from '../../MainEditarAluno'
 
-function Home() {
+function EditarAluno() {
     return (
         <>
             <Navbar />
             <div className="container-fluid">
                 <div className="row">
                     <Sidebar />
-                    <Grafico />
+                    <MainEditarAluno />
 
                 </div>
             </div>
         </ >
     );
 }
-export default Home;
+export default EditarAluno;
