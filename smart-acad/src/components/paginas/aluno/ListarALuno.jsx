@@ -1,4 +1,4 @@
-import MainListarAluno from "../../MainListarAluno";
+
 import Navbar from "../../template/Navbar";
 import Sidebar from "../../template/Sidebar";
 
@@ -9,7 +9,7 @@ function ListarAluno() {
             <div className="container-fluid">
                 <div className="row">
                     <Sidebar />
-                    <MainListarAluno />
+                    
 
                 </div>
             </div>

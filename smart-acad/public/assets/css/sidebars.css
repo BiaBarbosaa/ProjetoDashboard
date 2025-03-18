@@ -3,6 +3,9 @@ body {
   min-height: -webkit-fill-available;
 }
 
+.colorsidebar{
+  background-color: aquamarine;
+}
 html {
   height: -webkit-fill-available;
 }

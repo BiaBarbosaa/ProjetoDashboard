@@ -74,3 +74,9 @@
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
+
+  .imagemFundo{
+    background-image: url('src/components/img/Storyinterativotreinoacademiapretobranco(6).png');
+    width: 20%;
+    height: 100%;
+  }
